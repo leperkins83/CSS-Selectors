@@ -1,0 +1,88 @@
+#logo {
+  color: red;
+}
+
+#nav li a {
+color: blue;
+}
+
+#nav li a:visited {
+  color: green;
+}
+
+#above-the-fold .card p {
+  color: #fff;
+}
+
+#above-the-fold .card button {
+  background-color: rgb(136, 255, 0);
+  color: #fff;
+}
+
+article p::first-letter {
+  margin-left: 30px;
+}
+
+section#blog {
+  background-color: #666;
+  color: #cff;
+}
+
+#gallery figure:hover {
+  box-shadow: 0 15px 30px 20px #000;
+}
+
+#gallery figcaption {
+  padding: 8px;
+}
+
+article h3 {
+  text-align: center;
+}
+
+article {
+  margin-top: 40px;
+}
+
+section h2 {
+  text-transform: uppercase;
+}
+
+section h2:before {
+  content: "**";
+}
+}
+
+form input {
+  margin: 10px;
+  padding: 3px;
+}
+
+form input:focus,
+textarea:focus {
+  border-color: green;
+  outline:none;
+}
+form input[type="radio"] {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+textarea {
+  display: block;
+}
+
+form input[type="submit"] {
+  display: block;
+  background-color: #0f0;
+}
+
+footer {
+  background-color: rgb(56, 57, 58);
+  color: #e0b341;
+}
+
+address p {
+  margin: 0;
+  padding: 20px 0;
+}
